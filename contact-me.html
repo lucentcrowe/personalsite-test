@@ -4,22 +4,28 @@
 <head>
   <meta charset="utf-8">
   <title>Contact Me</title>
+  <link rel="stylesheet" href="\Work\Udemy\web development\css\styles.css">
 </head>
 
 <body>
   <h1>Contact Me</h1>
   <hr>
-<form action="mailto:crowgf93@gmail.com" method="post" enctype="text/plain">
+  <br>
+  <form action="mailto:crowgf93@gmail.com" method="post" enctype="text/plain">
+    <p>
+      <label for="YourName">Your Name:  </label>
+      <input type="text" name="YourName" value="">
+    </p>
+    <p>
+      <label for="YourEmail">Your Email:  </label>
+      <input type="email" name="YourEmail" value="">
+    </p>
+    <p>
+      <label for="YourMessage">Your Message:</label>
+      <textarea name="YourMessage" rows="4" cols="30"></textarea>
+      <input type="submit" name="submit" value="submit">
+    </p>
 
-    <label for="YourName">Your Name:</label>
-    <input type="text" name="YourName" value="">
-    <br>
-    <label for="YourEmail">Your Email:</label>
-    <input type="email" name="YourEmail" value="">
-    <br>
-    <label for="YourMessage">Your Message:</label>
-  <textarea name="YourMessage" rows="10" cols="30"></textarea>
-  <input type="submit" name="submit" value="submit">
   </form>
 </body>
 
